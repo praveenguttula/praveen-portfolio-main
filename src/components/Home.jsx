@@ -19,13 +19,13 @@ const Home = () => (
           Guttula Praveen Sriram
         </motion.span>
       </p>
-      <p className={style.intro}>
+      {/* <p className={style.intro}>
         Also known as
         {' '}
         <motion.span variants={fadeIn('', '', 0.3, 1)} className={style.name}>
           Chinna
         </motion.span>
-      </p>
+      </p> */}
       <motion.p variants={fadeIn('', '', 0.5, 1)} className={style.desc}>
         I am a MERN stack web developer
       </motion.p>
